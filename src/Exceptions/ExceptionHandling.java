@@ -24,7 +24,7 @@ public class ExceptionHandling {
             System.out.println("Length of the text: " + length);
 
         } catch (InputMismatchException e) {
-            System.out.println("Error: Please enter a valid integer.")
+            System.out.println("Error: Please enter a valid integer.");
             // Clear the scanner buffer if needed
             scanner.nextLine();
         } catch (ArrayIndexOutOfBoundsException e) {
